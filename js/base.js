@@ -3,8 +3,8 @@ class base{
         var Option ={
             isStatic:true
         }
-        this.w = 300;
-        this.h  = 200;
+        this.w =w;
+        this.h  = h;
         this.body = Bodies.rectangle(x, y, w, h, Option);
         World.add(world, this.body);
     }

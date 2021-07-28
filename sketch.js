@@ -38,8 +38,8 @@ function setup() {
   ground = new base(200,680,680,20);
 
   wall1 = new base(40, 580, 300, 200);
-  wall2 = new base(700, 280, 100, 50);
-  wall3 = new base(0, 280, 100, 500);
+  wall2 = new base(700, 280, 300, 200);
+  wall3 = new base(0, 280, 300, 200);
 
   inv = new invBase(350, 280, 1000, 20);
 
